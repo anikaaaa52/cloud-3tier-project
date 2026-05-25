@@ -2,9 +2,10 @@
 
 ═══════════════════════════════════════════════════════════════════════
 
-PROJECT OVERVIEW
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ PROJECT OVERVIEW ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This project is a fully containerized cloud-native **3-tier application** developed using modern **DevOps**, **Cloud Computing**, and **Microservices Architecture** principles.
 
@@ -29,47 +30,47 @@ The frontend and backend are isolated into separate containers and communicate t
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ TABLE OF CONTENTS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 📚 TABLE OF CONTENTS
-
-1. Introduction
-2. Project Overview
-3. Objectives of the Project
-4. Technologies Used
-5. Features of the Application
-6. Why This Project Was Built
-7. System Architecture
-8. Architecture Explanation
-9. Project Workflow
-10. Frontend Explanation
-11. Backend Explanation
-12. Docker Explanation
-13. Docker Compose Explanation
-14. REST API Communication
-15. Docker Networking
-16. Folder Structure
-17. Installation & Setup
-18. Docker Deployment Process
-19. Running the Application
-20. API Endpoints
-21. API Testing
-22. Screenshots Section
-23. Challenges Faced
-24. Troubleshooting
-25. Key Learnings
-26. Real-World Use Cases
-27. Security Considerations
-28. Scalability Discussion
-29. Future Improvements
-30. Resume Description
-31. Conclusion
+1. Introduction  
+2. Project Overview  
+3. Project Screenshots  
+4. Objectives of the Project  
+5. Technologies Used  
+6. Features of the Application  
+7. Why This Project Was Built  
+8. System Architecture  
+9. Architecture Explanation  
+10. Project Workflow  
+11. Frontend Explanation  
+12. Backend Explanation  
+13. Docker Explanation  
+14. Docker Compose Explanation  
+15. REST API Communication  
+16. Docker Networking  
+17. Folder Structure  
+18. Installation & Setup  
+19. Docker Deployment Process  
+20. Running the Application  
+21. API Endpoints  
+22. API Testing  
+23. Challenges Faced  
+24. Troubleshooting  
+25. Key Learnings  
+26. Real-World Use Cases  
+27. Security Considerations  
+28. Scalability Discussion  
+29. Future Improvements  
+30. Resume Description  
+31. Conclusion  
 
 
 
----
-
-## 1. INTRODUCTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 1. INTRODUCTION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Modern applications are no longer built as large monolithic systems. Today, most enterprise applications follow a **microservices-based cloud-native architecture** where services are divided into independent components.
 
@@ -102,15 +103,15 @@ The project gives practical understanding of:
 
 
 
----
-
-## 2. PROJECT OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 2. PROJECT OVERVIEW ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This application consists of three major layers.
 
 
 
-### Frontend Service
+### ◇ Frontend Service
 
 The frontend is built using:
 
@@ -131,7 +132,7 @@ Responsibilities of frontend:
 
 
 
-### Backend Service
+### ◇ Backend Service
 
 The backend is built using:
 
@@ -147,7 +148,7 @@ Responsibilities of backend:
 
 
 
-### Infrastructure Layer
+### ◇ Infrastructure Layer
 
 The infrastructure layer consists of:
 
@@ -164,74 +165,171 @@ Responsibilities:
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 3. PROJECT SCREENSHOTS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 3. OBJECTIVES OF THE PROJECT
+### ◇ Docker Compose Running
 
-The primary goal of this project is to gain practical hands-on experience with cloud-native deployment architecture.
+This screenshot shows the successful execution of Docker Compose where all services are started correctly.
 
+```md
+![Docker Compose](01-docker-compose-running.png)
 
-
-### 1. Understand 3-Tier Architecture
-
-Learn how frontend, backend, and infrastructure layers work together in production systems.
-
-
-
-### 2. Learn Docker Containerization
-
-Understand how applications are packaged into isolated environments.
-
-
-
-### 3. Build REST APIs Using Flask
-
-Develop backend services capable of handling API requests and responses.
-
-
-
-### 4. Learn Docker Compose
-
-Manage multiple services using a single orchestration configuration.
-
-
-
-### 5. Simulate Real Cloud Deployment
-
-Create a production-like deployment workflow using Docker containers.
-
-
-
-### 6. Understand Service Communication
-
-Learn how frontend and backend services communicate securely.
-
-
+```
 
 ---
 
-## 4. TECHNOLOGIES USED
+### ◇ Docker Container Running Status
+
+This screenshot confirms that frontend and backend containers are actively running.
+
+```md
+![Containers Running](01-docker-container-running.png)
+
+```
+
+---
+
+### ◇ Backend API Working
+
+This screenshot verifies that the Flask backend API is functioning correctly.
+
+```md
+![Backend API](02-api-working.png)
+```
+
+---
+
+### ◇ Frontend User Interface
+
+This screenshot displays the frontend web application running successfully in the browser.
+
+```md
+![Frontend UI](02-frontend-ui.png)
+```
+
+---
+
+### ◇ Health Check Response
+
+This screenshot shows the `/health` API endpoint response.
+
+```md
+![Health Check](03-health-response.png)
+```
+
+---
+
+### ◇ Data Endpoint Response
+
+This screenshot demonstrates the `/data` API response from backend service.
+
+```md
+![Data Endpoint](04-data-response.png)
+```
+---
+
+### ◇ Backend Health Verification
+
+This screenshot verifies that the backend service is running independently and responding correctly through direct API access.
+
+```md
+![Backend Health Verification]05-backend-health.png)
+```
+
+---
+
+### ◇ Health Check Response
+
+This screenshot displays the successful response from the `/health` endpoint confirming that the backend service is active and healthy.
+
+```md
+![Health Check Response](/05-health-check.png)
+```
+
+---
+
+### ◇ Data Endpoint Response
+
+This screenshot shows the successful response returned from the `/data` endpoint demonstrating frontend-backend communication and JSON response handling.
+
+```md
+![Data Endpoint Response](06-data-response.png)
+```
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 4. OBJECTIVES OF THE PROJECT ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The primary objective of this project is to gain practical hands-on experience in building cloud-native applications using Docker and microservices architecture.
+
+
+
+### ◇ Main Objectives
+
+#### 1. Understand 3-Tier Architecture
+
+Learn how frontend, backend, and infrastructure layers work together in real production environments.
+
+
+
+#### 2. Learn Docker Containerization
+
+Understand how applications and dependencies are packaged into isolated Docker containers.
+
+
+
+#### 3. Build REST APIs Using Flask
+
+Develop lightweight backend APIs capable of handling requests and returning JSON responses.
+
+
+
+#### 4. Learn Docker Compose
+
+Manage multiple services using a single orchestration configuration file.
+
+
+
+#### 5. Simulate Real Cloud Deployment
+
+Create a production-like deployment workflow using Docker infrastructure.
+
+
+
+#### 6. Understand Service Communication
+
+Learn how frontend and backend services communicate securely using Docker networking.
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 5. TECHNOLOGIES USED ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 | Technology | Purpose |
 |------------|----------|
 | HTML | Frontend structure |
-| CSS | Styling and design |
-| JavaScript | Frontend logic and API requests |
+| CSS | Styling and user interface |
+| JavaScript | Frontend logic and API communication |
 | Python | Backend programming |
-| Flask | REST API framework |
+| Flask | REST API development |
 | Nginx | Frontend web hosting |
-| Docker | Containerization |
+| Docker | Containerization platform |
 | Docker Compose | Multi-container orchestration |
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 6. FEATURES OF THE APPLICATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 5. FEATURES OF THE APPLICATION
 
 
-
-### Core Features
+### ◇ Core Features
 
 - Fully Dockerized Application
 - Multi-container Architecture
@@ -249,41 +347,33 @@ Learn how frontend and backend services communicate securely.
 
 
 
-### Advanced Features
+### ◇ Advanced Features
 
-
-
-#### Independent Service Deployment
+#### ◆ Independent Service Deployment
 
 Each service runs independently inside separate Docker containers.
 
-
-
-#### Isolated Environment
+#### ◆ Isolated Environment
 
 Application dependencies remain isolated from the host machine.
 
-
-
-#### Easy Scalability
+#### ◆ Easy Scalability
 
 Services can easily scale independently.
 
-
-
-#### Cloud-ready Structure
+#### ◆ Cloud-ready Structure
 
 Architecture resembles modern cloud-native systems.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 7. WHY THIS PROJECT WAS BUILT ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 6. WHY THIS PROJECT WAS BUILT
+The purpose of building this project was to understand how modern cloud-native applications are deployed and managed in real-world environments.
 
-The main purpose of building this project was to understand how modern applications are deployed in cloud environments.
-
-Most modern applications today use:
+Most modern production applications today use:
 
 - Containerized Deployments
 - API-based Communication
@@ -292,13 +382,13 @@ Most modern applications today use:
 - Multi-container Systems
 - Cloud-native Architecture
 
-This project recreates those concepts in a simplified but realistic environment.
+This project recreates these concepts in a simplified but practical environment.
 
 
 
----
-
-## 7. SYSTEM ARCHITECTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 8. SYSTEM ARCHITECTURE ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ```text
                 ┌──────────────────┐
@@ -327,13 +417,13 @@ This project recreates those concepts in a simplified but realistic environment.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 9. ARCHITECTURE EXPLANATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 8. ARCHITECTURE EXPLANATION
 
 
-
-### Frontend Layer
+### ◇ Frontend Layer
 
 The frontend acts as the presentation layer.
 
@@ -348,7 +438,7 @@ The frontend is hosted using Nginx for fast and efficient delivery.
 
 
 
-### Backend Layer
+### ◇ Backend Layer
 
 The backend acts as the application layer.
 
@@ -359,11 +449,11 @@ Responsibilities include:
 - Returning JSON responses
 - Monitoring service health
 
-The backend is developed using Flask.
+The backend is developed using Flask Framework.
 
 
 
-### Docker Infrastructure Layer
+### ◇ Docker Infrastructure Layer
 
 This layer enables:
 
@@ -376,52 +466,37 @@ Docker Compose manages the complete infrastructure.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 10. PROJECT WORKFLOW ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 9. PROJECT WORKFLOW
+### ◇ Step-by-Step Workflow
 
+#### 1. User Opens Frontend
 
+The user accesses the frontend application through a browser.
 
-### 1. User Opens Frontend
+#### 2. Frontend Sends API Requests
 
-The user accesses the web application using a browser.
+JavaScript sends requests to backend APIs.
 
+#### 3. Backend Processes Requests
 
+Flask backend handles API requests and processes business logic.
 
-### 2. Frontend Sends API Request
+#### 4. Backend Returns JSON Response
 
-JavaScript sends HTTP requests to backend APIs.
+Structured JSON data is returned to frontend.
 
-Example:
+#### 5. Frontend Displays Data
 
-```bash
-/health
-/data
-```
-
-
-
-### 3. Backend Processes Request
-
-Flask backend receives the request and processes it.
+Frontend dynamically updates the UI with backend response.
 
 
 
-### 4. Backend Returns JSON Response
-
-Backend sends structured JSON data.
-
-
-
-### 5. Frontend Displays Response
-
-The frontend dynamically updates the user interface.
-
-
-
----
-
-## 10. FRONTEND EXPLANATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 11. FRONTEND EXPLANATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 The frontend is developed using:
 
@@ -429,57 +504,41 @@ The frontend is developed using:
 - CSS
 - JavaScript
 
-The frontend is responsible for:
+Frontend responsibilities include:
 
 - User Interface
-- Buttons and Interaction
+- User Interaction
 - Sending API Requests
-- Displaying Backend Responses
+- Displaying API Responses
 
-The frontend is served using:
-
-
-
-### Nginx Web Server
-
-Advantages of Nginx:
-
-- Lightweight
-- Fast Performance
-- Efficient Static Hosting
-- Widely Used in Production
+The frontend is served using Nginx web server which provides fast and lightweight static hosting.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 12. BACKEND EXPLANATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 11. BACKEND EXPLANATION
+The backend is developed using Python and Flask.
 
-The backend is developed using:
-
-- Python
-- Flask Framework
-
-Responsibilities:
+Backend responsibilities include:
 
 - API Handling
 - Request Processing
-- Health Monitoring
 - Returning JSON Responses
+- Health Monitoring
 
-Flask is lightweight and ideal for microservices architecture.
-
-
-
----
-
-## 12. DOCKER EXPLANATION
-
-Docker is a containerization platform that packages applications and dependencies into isolated containers.
+Flask is lightweight and ideal for microservices-based architecture.
 
 
 
-### Advantages of Docker
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 13. DOCKER EXPLANATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Docker is a containerization platform that packages applications and dependencies into isolated environments called containers.
+
+Advantages of Docker:
 
 - Environment Consistency
 - Fast Deployment
@@ -488,21 +547,19 @@ Docker is a containerization platform that packages applications and dependencie
 - Dependency Isolation
 - Better Resource Utilization
 
-Docker eliminates the common problem:
+Docker eliminates the common issue:
 
 > "It works on my machine."
 
 
 
----
-
-## 13. DOCKER COMPOSE EXPLANATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 14. DOCKER COMPOSE EXPLANATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Docker Compose is used to manage multiple containers simultaneously.
 
-
-
-### Benefits
+Benefits include:
 
 - Single Command Deployment
 - Automatic Networking
@@ -512,18 +569,19 @@ Docker Compose is used to manage multiple containers simultaneously.
 
 This project uses Docker Compose to:
 
-- Build images
-- Start containers
-- Create networks
-- Connect services
+- Build Images
+- Create Containers
+- Create Networks
+- Connect Services
+- Start Application Stack
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 15. REST API COMMUNICATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 14. REST API COMMUNICATION
-
-Frontend and backend communicate using REST APIs.
+Frontend and backend services communicate using REST APIs.
 
 Example:
 
@@ -535,17 +593,17 @@ fetch('/health')
   });
 ```
 
-This demonstrates frontend-backend integration.
+This demonstrates frontend-backend integration using HTTP requests.
 
 
 
----
-
-## 15. DOCKER NETWORKING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 16. DOCKER NETWORKING ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Docker Compose automatically creates a shared network for all containers.
 
-This enables containers to communicate using service names.
+This allows containers to communicate using service names.
 
 Example:
 
@@ -559,12 +617,11 @@ Benefits:
 - Internal Service Discovery
 - Production-like Networking
 - Simplified Connectivity
+```
 
-
-
----
-
-## 16. FOLDER STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 17. FOLDER STRUCTURE ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ```bash
 cloud-3tier-docker-app/
@@ -586,47 +643,63 @@ cloud-3tier-docker-app/
 └── README.md
 ```
 
-
-
----
-
-## 17. INSTALLATION & SETUP
+This structure separates frontend and backend services into independent directories which improves maintainability and scalability.
 
 
 
-### Prerequisites
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 18. INSTALLATION & SETUP ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Install the following tools before starting:
+Before starting the project, install the following tools on your system:
 
 - Docker
 - Docker Compose
 - Git
 
+---
 
-
-### Clone Repository
+### ◇ Clone Repository
 
 ```bash
 git clone https://github.com/your-username/cloud-3tier-docker-app.git
 ```
 
+---
 
-
-### Navigate into Project
+### ◇ Navigate into Project Directory
 
 ```bash
 cd cloud-3tier-docker-app
 ```
 
+---
 
+### ◇ Verify Docker Installation
+
+```bash
+docker --version
+```
 
 ---
 
-## 18. DOCKER DEPLOYMENT PROCESS
+### ◇ Verify Docker Compose Installation
+
+```bash
+docker-compose --version
+```
 
 
 
-### Build and Start Application
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 19. DOCKER DEPLOYMENT PROCESS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Docker Compose is used to build and deploy the complete application stack.
+
+---
+
+### ◇ Build and Start Application
 
 ```bash
 docker-compose up --build
@@ -634,70 +707,113 @@ docker-compose up --build
 
 This command:
 
-- Builds Docker Images
-- Creates Containers
-- Creates Docker Network
-- Starts Services
+- Builds Docker images
+- Creates containers
+- Creates Docker network
+- Starts frontend service
+- Starts backend service
 
+---
 
-
-### Run in Detached Mode
+### ◇ Run Containers in Detached Mode
 
 ```bash
 docker-compose up -d
 ```
 
+---
 
-
-### Stop Application
+### ◇ Stop Application
 
 ```bash
 docker-compose down
 ```
 
+---
 
+### ◇ Restart Containers
 
-### Check Running Containers
+```bash
+docker-compose restart
+```
+
+---
+
+### ◇ Check Running Containers
 
 ```bash
 docker ps
 ```
 
+---
 
+### ◇ View Container Logs
+
+```bash
+docker-compose logs
+```
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 20. RUNNING THE APPLICATION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After deployment, the application can be accessed through browser.
 
 ---
 
-## 19. RUNNING THE APPLICATION
-
-
-
-### Frontend URL
+### ◇ Frontend URL
 
 ```bash
 http://localhost
 ```
 
+---
 
-
-### Backend URL
+### ◇ Backend URL
 
 ```bash
 http://localhost:5000
 ```
 
+---
 
+### ◇ Health Endpoint
+
+```bash
+http://localhost:5000/health
+```
 
 ---
 
-## 20. API ENDPOINTS
+### ◇ Data Endpoint
+
+```bash
+http://localhost:5000/data
+```
 
 
 
-### Health Check Endpoint
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 21. API ENDPOINTS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The backend service exposes REST API endpoints for frontend communication.
+
+---
+
+### ◇ Health Check Endpoint
 
 ```http
 GET /health
 ```
+
+Purpose:
+
+- Verify backend service availability
+- Monitor backend health
+- Confirm API accessibility
 
 #### Sample Response
 
@@ -708,13 +824,19 @@ GET /health
 }
 ```
 
+---
 
-
-### Data Endpoint
+### ◇ Data Endpoint
 
 ```http
 GET /data
 ```
+
+Purpose:
+
+- Return sample structured data
+- Demonstrate frontend-backend communication
+- Verify JSON response handling
 
 #### Sample Response
 
@@ -731,248 +853,256 @@ GET /data
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 22. API TESTING ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 21. API TESTING
+The APIs can be tested using multiple methods.
 
-APIs can be tested using:
+### ◇ Browser Testing
 
-- Browser
-- Postman
-- Curl
-- Frontend Buttons
+Open API URLs directly in browser.
 
-Example:
+### ◇ Postman Testing
+
+Use Postman to send GET requests and inspect JSON responses.
+
+### ◇ Curl Testing
 
 ```bash
 curl http://localhost:5000/health
 ```
 
+### ◇ Frontend Button Testing
 
-
----
-
-## 22. PROJECT SCREENSHOTS
-
-
-
-### 1. Docker Compose Running
-
-Shows successful startup of services.
-
-```md
-![Docker Compose](screenshots/docker-compose.png)
-```
+Frontend buttons trigger backend APIs and display responses dynamically.
 
 
 
-### 2. Running Containers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 23. CHALLENGES FACED ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Displays active Docker containers.
-
-```md
-![Containers](screenshots/containers.png)
-```
-
-
-
-### 3. Backend API Working
-
-Shows Flask API responses.
-
-```md
-![Backend API](screenshots/backend-api.png)
-```
-
-
-
-### 4. Frontend Interface
-
-Displays web UI.
-
-```md
-![Frontend UI](screenshots/frontend-ui.png)
-```
-
-
-
-### 5. Health Endpoint Response
-
-```md
-![Health Check](screenshots/health-check.png)
-```
-
-
-
-### 6. Data Endpoint Response
-
-```md
-![Data Endpoint](screenshots/data-endpoint.png)
-```
-
-
+During development, multiple practical issues were encountered and resolved.
 
 ---
 
-## 23. CHALLENGES FACED
-
-
-
-### Container Communication Issues
+### ◇ Container Communication Issue
 
 #### Problem
 
-Frontend could not connect to backend.
+Frontend container was unable to communicate with backend service.
 
 #### Solution
 
-- Fixed Docker networking
-- Used proper service names
+- Fixed Docker networking configuration
+- Used service names instead of localhost
+- Verified container connectivity
 
+---
 
-
-### Port Conflicts
+### ◇ Port Conflict Issue
 
 #### Problem
 
-Ports were already occupied.
+Application ports were already occupied by other processes.
 
 #### Solution
 
 - Stopped conflicting services
 - Changed port mappings
-
-
-
-### Build Errors
-
-#### Problem
-
-Docker image build failed.
-
-#### Solution
-
-- Rebuilt containers
-- Fixed Dockerfile configuration
-
-
+- Restarted Docker containers
 
 ---
 
-## 24. TROUBLESHOOTING
+### ◇ Docker Build Errors
+
+#### Problem
+
+Docker image build process failed due to dependency issues.
+
+#### Solution
+
+- Rebuilt Docker images
+- Corrected Dockerfile configuration
+- Updated dependencies
+
+---
+
+### ◇ API Connectivity Issues
+
+#### Problem
+
+Frontend API requests were failing.
+
+#### Solution
+
+- Fixed API endpoint URLs
+- Corrected fetch requests
+- Verified backend accessibility
 
 
 
-### Containers Not Starting
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 24. TROUBLESHOOTING ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### ◇ Containers Not Starting
+
+Run:
 
 ```bash
 docker-compose down
 docker-compose up --build
 ```
 
+---
 
+### ◇ Backend Not Responding
 
-### Backend Not Responding
-
-Verify backend container:
+Check active containers:
 
 ```bash
 docker ps
 ```
 
+---
 
+### ◇ Frontend Not Loading
 
-### Frontend Not Loading
+Verify:
 
-Check Nginx configuration and container logs.
-
-
-
-### API Errors
-
-Verify endpoint URLs and Docker networking.
-
-
+- Nginx configuration
+- Frontend container status
+- Browser console logs
 
 ---
 
-## 25. KEY LEARNINGS
+### ◇ API Errors
 
-This project helped in understanding:
+Verify:
+
+- API endpoint URLs
+- Docker networking
+- Backend container logs
+
+---
+
+### ◇ View Docker Logs
+
+```bash
+docker-compose logs
+```
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 25. KEY LEARNINGS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This project helped in understanding several important DevOps and cloud concepts.
+
+### ◇ Technical Learnings
 
 - Docker Fundamentals
 - Docker Compose
-- Flask API Development
-- REST API Communication
-- Frontend-backend Integration
-- Nginx Hosting
-- Container Networking
-- Cloud Deployment Workflow
-- DevOps Basics
-- Production Architecture Concepts
+- Flask REST APIs
+- Frontend-backend Communication
+- Docker Networking
+- Container Lifecycle Management
+- API Development
+- Cloud-native Deployment
+
+### ◇ DevOps Learnings
+
+- Multi-container Architecture
+- Service Isolation
+- Deployment Workflow
+- Infrastructure Management
+- Production-like Setup
+
+### ◇ Software Engineering Learnings
+
+- Modular Architecture
+- Microservices Design
+- Debugging Techniques
+- Error Handling
+- API Integration
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 26. REAL-WORLD USE CASES ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 26. REAL-WORLD USE CASES
+This architecture resembles systems used in real-world production environments.
 
-This architecture is commonly used in:
+Common use cases include:
 
-- SaaS Applications
-- Enterprise Platforms
-- Cloud Services
-- Banking Applications
-- E-Commerce Systems
-- DevOps Environments
-- Production Deployments
+- SaaS Platforms
+- Enterprise Applications
+- Banking Systems
+- E-Commerce Platforms
+- Cloud-native Applications
+- DevOps Infrastructure
+- Microservices Platforms
+- API-driven Systems
+
+This project provides foundational knowledge required for large-scale distributed systems.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 27. SECURITY CONSIDERATIONS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 27. SECURITY CONSIDERATIONS
-
-Basic security practices considered:
+Basic security concepts considered in this project include:
 
 - Container Isolation
 - Service Separation
 - Controlled Networking
-- Minimal Dependencies
+- Environment Consistency
+- Reduced Dependency Conflicts
 
-Future security improvements:
+Possible future security improvements:
 
-- HTTPS Support
-- Authentication
-- JWT Tokens
-- Firewall Rules
-- Reverse Proxy Security
-
-
-
----
-
-## 28. SCALABILITY DISCUSSION
-
-This architecture can easily scale by:
-
-- Adding more backend containers
-- Using load balancing
-- Deploying to Kubernetes
-- Integrating databases
-- Deploying on cloud platforms
-
-This makes the architecture production-ready and scalable for enterprise workloads.
+- HTTPS Configuration
+- JWT Authentication
+- API Security
+- Reverse Proxy Protection
+- Firewall Configuration
+- Environment Variable Management
+- Secret Management Systems
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 28. SCALABILITY DISCUSSION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 29. FUTURE IMPROVEMENTS
+This architecture can easily scale for larger production workloads.
+
+Possible scaling improvements:
+
+- Multiple Backend Containers
+- Load Balancing
+- Database Integration
+- Kubernetes Deployment
+- Cloud Deployment
+- Horizontal Scaling
+- Monitoring Systems
+
+The modular architecture makes the application highly scalable and cloud-ready.
 
 
 
-### Add Database Layer
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 29. FUTURE IMPROVEMENTS ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Several advanced improvements can be added in future versions of the project.
+
+### ◇ Database Integration
 
 Possible databases:
 
@@ -980,55 +1110,55 @@ Possible databases:
 - PostgreSQL
 - MongoDB
 
+---
 
+### ◇ CI/CD Pipeline Integration
 
-### Implement CI/CD
-
-Tools:
+Possible tools:
 
 - GitHub Actions
 - Jenkins
 - GitLab CI/CD
 
+---
 
+### ◇ Cloud Deployment
 
-### Deploy to Cloud
-
-Deploy on:
+Possible platforms:
 
 - AWS
-- Azure
-- Google Cloud
+- Microsoft Azure
+- Google Cloud Platform
 
+---
 
+### ◇ Monitoring & Logging
 
-### Monitoring & Logging
-
-Tools:
+Monitoring tools:
 
 - Prometheus
 - Grafana
 - ELK Stack
 
-
-
-### Kubernetes Deployment
-
-Migrate Docker Compose architecture to Kubernetes.
-
-
-
 ---
 
-## 30. RESUME DESCRIPTION
+### ◇ Kubernetes Deployment
 
-Built a fully containerized 3-tier cloud-native application using Docker Compose with Flask backend and Nginx frontend. Implemented REST APIs, Docker networking, and frontend-backend communication to simulate real-world cloud microservice deployment architecture.
+Future migration from Docker Compose to Kubernetes orchestration.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 30. RESUME DESCRIPTION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 31. CONCLUSION
+Built a fully containerized 3-tier cloud-native application using Docker Compose with Flask backend and Nginx frontend. Implemented REST APIs, Docker networking, frontend-backend communication, and multi-container orchestration to simulate real-world cloud microservice deployment architecture.
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✦ 31. CONCLUSION ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This project successfully demonstrates how modern cloud-native applications are structured and deployed using Dockerized microservices architecture.
 
@@ -1043,21 +1173,20 @@ The project provides strong practical understanding of:
 - DevOps Workflow
 - Cloud-native Deployment
 
-This project forms an excellent foundation for advanced topics such as:
+This project forms a strong foundation for advanced technologies such as:
 
 - Kubernetes
 - CI/CD Pipelines
-- Cloud Infrastructure
 - Infrastructure Automation
+- Cloud Platforms
 - Monitoring Systems
 - Production-grade Deployments
 
-The architecture used in this project closely resembles modern industry deployment patterns and provides valuable hands-on experience in cloud and DevOps engineering.
+The architecture used in this project closely resembles modern industry deployment patterns and provides valuable hands-on experience in cloud engineering and DevOps practices.
 
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ✦ THANK YOU FOR VISITING THIS PROJECT ✦
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# ⭐ THANK YOU FOR VISITING THIS PROJECT ⭐
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
