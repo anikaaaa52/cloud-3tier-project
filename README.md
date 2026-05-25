@@ -176,7 +176,6 @@ This screenshot shows the successful execution of Docker Compose where all servi
 
 ![Docker Compose](01-docker-compose-running.png)
 
-```
 
 ---
 
@@ -197,7 +196,6 @@ This screenshot verifies that the Flask backend API is functioning correctly.
 
 
 ![Backend API](02-api-working.png)
-```
 
 ---
 
@@ -207,7 +205,7 @@ This screenshot displays the frontend web application running successfully in th
 
 
 ![Frontend UI](02-frontend-ui.png)
-```
+
 
 ---
 
@@ -217,7 +215,7 @@ This screenshot shows the `/health` API endpoint response.
 
 
 ![Health Check](03-health-response.png)
-```
+
 
 ---
 
@@ -227,7 +225,7 @@ This screenshot demonstrates the `/data` API response from backend service.
 
 
 ![Data Endpoint](04-data-response.png)
-```
+
 ---
 
 ### ◇ Backend Health Verification
@@ -246,7 +244,7 @@ This screenshot displays the successful response from the `/health` endpoint con
 
 
 ![Health Check Response](/05-health-check.png)
-```
+
 
 ---
 
