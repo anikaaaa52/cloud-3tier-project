@@ -173,7 +173,7 @@ Responsibilities:
 
 This screenshot shows the successful execution of Docker Compose where all services are started correctly.
 
-```md
+
 ![Docker Compose](01-docker-compose-running.png)
 
 ```
