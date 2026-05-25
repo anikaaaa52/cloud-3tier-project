@@ -184,10 +184,10 @@ This screenshot shows the successful execution of Docker Compose where all servi
 
 This screenshot confirms that frontend and backend containers are actively running.
 
-```md
+
 ![Containers Running](01-docker-container-running.png)
 
-```
+
 
 ---
 
@@ -195,7 +195,7 @@ This screenshot confirms that frontend and backend containers are actively runni
 
 This screenshot verifies that the Flask backend API is functioning correctly.
 
-```md
+
 ![Backend API](02-api-working.png)
 ```
 
@@ -205,7 +205,7 @@ This screenshot verifies that the Flask backend API is functioning correctly.
 
 This screenshot displays the frontend web application running successfully in the browser.
 
-```md
+
 ![Frontend UI](02-frontend-ui.png)
 ```
 
@@ -215,7 +215,7 @@ This screenshot displays the frontend web application running successfully in th
 
 This screenshot shows the `/health` API endpoint response.
 
-```md
+
 ![Health Check](03-health-response.png)
 ```
 
@@ -225,7 +225,7 @@ This screenshot shows the `/health` API endpoint response.
 
 This screenshot demonstrates the `/data` API response from backend service.
 
-```md
+
 ![Data Endpoint](04-data-response.png)
 ```
 ---
@@ -234,9 +234,9 @@ This screenshot demonstrates the `/data` API response from backend service.
 
 This screenshot verifies that the backend service is running independently and responding correctly through direct API access.
 
-```md
+
 ![Backend Health Verification]05-backend-health.png)
-```
+
 
 ---
 
@@ -244,7 +244,7 @@ This screenshot verifies that the backend service is running independently and r
 
 This screenshot displays the successful response from the `/health` endpoint confirming that the backend service is active and healthy.
 
-```md
+
 ![Health Check Response](/05-health-check.png)
 ```
 
@@ -254,7 +254,7 @@ This screenshot displays the successful response from the `/health` endpoint con
 
 This screenshot shows the successful response returned from the `/data` endpoint demonstrating frontend-backend communication and JSON response handling.
 
-```md
+
 ![Data Endpoint Response](06-data-response.png)
 ```
 
