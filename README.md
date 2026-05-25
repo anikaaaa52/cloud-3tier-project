@@ -4,33 +4,26 @@
 
 ◈ PROJECT OVERVIEW ◈
 
-This project demonstrates a fully containerized 3-tier cloud architecture application using Docker Compose, Flask, and Nginx.
+This project is a fully functional and containerized 3-tier cloud architecture application built using modern DevOps and cloud computing principles. The system is designed to simulate a real-world production environment where frontend and backend services are separated and communicate through APIs inside a Docker network.
 
-It simulates a real-world microservices-based system where frontend and backend services are separated and communicate through REST APIs inside a Docker network.
+The main goal of this project is to understand how cloud-native applications are structured, deployed, and managed using containerization technologies like Docker and orchestration tools like Docker Compose.
 
-The project was built to understand Cloud Computing, DevOps workflows, and containerized application deployment in a practical environment.
+This project demonstrates practical knowledge of:
 
-✧ Key Concepts Implemented
-
-✦ 3-tier architecture design
-✦ Docker containerization
-✦ Flask REST API development
-✦ Frontend-backend integration
-✦ Docker Compose orchestration
-✦ Service communication via network
-✦ API testing and validation
-✦ Cloud-style deployment simulation
-
-═══════════════════════════════════════════════════════════════════════
-
+Microservices architecture
+Containerized application deployment
+REST API communication
+Frontend and backend integration
+Cloud infrastructure simulation
 ❖ TABLE OF CONTENTS ❖
+
 ➊ Project Objectives
 ➋ Technologies Used
-➌ Project Architecture
-➍ Screenshots
+➌ System Architecture
+➍ Project Screenshots
 ➎ Project Features
 ➏ API Endpoints
-➐ Docker Deployment
+➐ Docker Deployment Process
 ➑ Key Learnings
 ➒ Troubleshooting
 ➓ Resume Description
@@ -40,156 +33,143 @@ The project was built to understand Cloud Computing, DevOps workflows, and conta
 ═══════════════════════════════════════════════════════════════════════
 
 ✦ ➊ PROJECT OBJECTIVES ✦
-◎ Main Objectives
 
-✔ Build a real-world 3-tier cloud architecture system
-✔ Understand microservices communication
-✔ Learn Docker containerization and orchestration
-✔ Develop REST APIs using Flask
-✔ Connect frontend with backend services
-✔ Simulate production-style cloud deployment
-✔ Gain hands-on DevOps workflow experience
+The primary objective of this project is to gain hands-on experience in building a real-world cloud-like system using Docker and microservices architecture.
 
-═══════════════════════════════════════════════════════════════════════
+◎ Objectives Explained
+
+✔ To design and implement a 3-tier architecture system
+✔ To understand communication between frontend and backend services
+✔ To containerize applications using Docker
+✔ To manage multiple services using Docker Compose
+✔ To simulate real cloud deployment workflow
+✔ To build REST APIs using Flask framework
+✔ To integrate frontend UI with backend services
 
 ✦ ➋ TECHNOLOGIES USED ✦
 Technology	Purpose
-HTML	Frontend UI
-JavaScript	Frontend logic
-Python (Flask)	Backend API
-Nginx	Web server
-Docker	Containerization
+HTML	Frontend structure
+JavaScript	Frontend logic & API calls
+Python (Flask)	Backend API development
+Nginx	Web server for frontend
+Docker	Containerization platform
 Docker Compose	Multi-container orchestration
+✦ ➌ SYSTEM ARCHITECTURE ✦
 
-═══════════════════════════════════════════════════════════════════════
+The application follows a standard 3-tier architecture model used in real-world cloud systems.
 
-✦ ➌ PROJECT ARCHITECTURE ✦
 User (Browser)
-     ↓
-Frontend (HTML + JS via Nginx)
-     ↓
-Backend (Flask API)
-     ↓
-Docker Network (Compose Communication)
+      ↓
+Frontend (Nginx + HTML + JS)
+      ↓
+Backend (Flask REST API)
+      ↓
+Docker Network (Service Communication Layer)
+❖ ❖ P R O J E C T S C R E E N S H O T S ❖ ❖
+
+The following screenshots demonstrate the complete working system, including container deployment, frontend interface, backend API responses, and Docker orchestration.
 
 ═══════════════════════════════════════════════════════════════════════
 
-❖ ❖ P R O J E C T S C R E E N S H O T S ❖ ❖
 ◉ 1 — DOCKER COMPOSE RUNNING
 
-![ DOCKER COMPOSE RUNNING](01-docker-compose-running.png)
+This screenshot shows the successful execution of Docker Compose command. All services including frontend and backend containers are started properly. It confirms that the multi-container setup is correctly configured and running without errors.
 
+◉ 2 — DOCKER CONTAINER RUNNING STATUS
 
-This screenshot shows the successful startup of all containers using Docker Compose.
-
-◉ 2 — DOCKER CONTAINER RUNNING
-
-This screenshot shows active containers running successfully.
+This screenshot displays the active Docker containers. It confirms that both frontend and backend containers are running successfully and are properly connected through Docker networking.
 
 ◉ 3 — BACKEND API WORKING
 
-This screenshot verifies backend Flask API is working properly.
+This screenshot verifies that the Flask backend API is functioning correctly. The backend is successfully responding to HTTP requests and returning valid JSON responses.
 
 ◉ 4 — FRONTEND USER INTERFACE
 
-This screenshot shows the frontend UI running in browser.
+This screenshot shows the frontend web interface running in the browser. It includes interactive buttons that trigger API calls to the backend service.
 
 ◉ 5 — HEALTH CHECK RESPONSE
 
-Backend health API response displayed in JSON format.
+This screenshot shows the backend /health endpoint response. It confirms that the backend service is active and healthy, returning structured JSON data.
 
-◉ 6 — DATA API RESPONSE
+◉ 6 — DATA ENDPOINT RESPONSE
 
-Backend data endpoint returning structured JSON output.
+This screenshot shows the /data API response from the backend. It demonstrates successful communication between frontend request and backend processing.
 
-◉ 7 — BACKEND HEALTH CHECK
+◉ 7 — BACKEND HEALTH VERIFICATION
 
-Direct backend health verification via API endpoint.
+This screenshot shows direct backend health verification through API call. It confirms that the backend service is running independently and responding correctly.
 
-◉ 8 — FRONTEND HEALTH BUTTON
+◉ 8 — FRONTEND HEALTH CHECK BUTTON
 
-Frontend button triggering backend health API.
+This screenshot shows the frontend button triggering the /health API. It demonstrates frontend-to-backend communication using REST API calls.
 
-◉ 9 — FRONTEND DATA BUTTON
+◉ 9 — FRONTEND DATA BUTTON RESPONSE
 
-Frontend button triggering backend data API.
+This screenshot shows the frontend triggering the /data API and displaying backend response on the UI. It confirms full integration between frontend and backend layers.
 
 ✦ ➍ PROJECT FEATURES ✦
 
-✔ Fully containerized architecture
-✔ Multi-service deployment
-✔ REST API implementation
-✔ Frontend-backend communication
+✔ Fully containerized microservices architecture
+✔ Frontend-backend separation
+✔ REST API implementation using Flask
 ✔ Docker Compose orchestration
 ✔ Nginx-based frontend hosting
-✔ JSON API responses
-✔ Cloud simulation environment
-
-═══════════════════════════════════════════════════════════════════════
+✔ JSON-based API communication
+✔ Real-world cloud simulation
 
 ✦ ➎ API ENDPOINTS ✦
-◉ Health Check
+◉ Health Check Endpoint
 GET /health
+
+Returns system status and service health.
+
 ◉ Data Endpoint
 GET /data
 
-═══════════════════════════════════════════════════════════════════════
+Returns sample structured JSON data from backend.
 
 ✦ ➏ DOCKER DEPLOYMENT ✦
-▶ Build & Run
+▶ Start Application
 docker-compose up --build
-▶ Stop Containers
+▶ Stop Application
 docker-compose down
-
-═══════════════════════════════════════════════════════════════════════
-
 ✦ ➐ KEY LEARNINGS ✦
 
-✦ 3-tier architecture understanding
-✦ Docker container lifecycle
-✦ Microservices communication
-✦ REST API development
-✦ Frontend-backend integration
-✦ Docker Compose orchestration
-✦ Cloud deployment simulation
-
-═══════════════════════════════════════════════════════════════════════
+✔ Understanding of 3-tier architecture
+✔ Docker container lifecycle management
+✔ Microservices communication
+✔ REST API development using Flask
+✔ Frontend-backend integration
+✔ Docker Compose orchestration
+✔ Cloud deployment simulation
 
 ✦ ➑ TROUBLESHOOTING ✦
-◉ Issue 1 — Backend not responding
+◉ Issue 1 — Containers not starting
 
-✔ Fixed by checking Flask port mapping
+✔ Fixed by correcting Docker configuration and rebuilding images
 
-◉ Issue 2 — Frontend not showing output
+◉ Issue 2 — Frontend not calling API
 
-✔ Fixed API URL and CORS configuration
+✔ Fixed API endpoint URLs and network communication
 
-◉ Issue 3 — Docker port conflicts
+◉ Issue 3 — Port conflicts
 
-✔ Resolved by stopping existing containers
-
-═══════════════════════════════════════════════════════════════════════
+✔ Resolved by stopping previously running containers
 
 ✦ ➒ RESUME DESCRIPTION ✦
 
-Built a fully containerized 3-tier cloud architecture using Docker Compose with Flask backend and Nginx frontend. Implemented REST APIs and frontend-backend communication to simulate real-world microservice deployment.
-
-═══════════════════════════════════════════════════════════════════════
+Built a fully containerized 3-tier cloud architecture using Docker Compose with Flask backend and Nginx frontend. Implemented REST APIs and frontend-backend communication to simulate real-world cloud microservice deployment.
 
 ✦ ➓ FUTURE IMPROVEMENTS ✦
 
-➤ Add database integration (MySQL / MongoDB)
-➤ Implement CI/CD pipeline using GitHub Actions
-➤ Deploy on AWS cloud infrastructure
-➤ Add authentication system
-➤ Add monitoring tools (Prometheus/Grafana)
-
-═══════════════════════════════════════════════════════════════════════
+✔ Add database integration (MySQL / MongoDB)
+✔ Implement CI/CD pipeline using GitHub Actions
+✔ Deploy on AWS cloud infrastructure
+✔ Add authentication system
+✔ Add monitoring using Prometheus and Grafana
 
 ✦ ⓫ CONCLUSION ✦
 
-This project demonstrates a real-world cloud architecture simulation using Docker-based microservices. It strengthens understanding of DevOps workflows, containerization, and service communication in modern cloud environments.
-
-═══════════════════════════════════════════════════════════════════════
+This project successfully demonstrates a cloud-native application architecture using Docker-based microservices. It provides hands-on experience in deployment, containerization, and API communication, simulating real-world production systems.
 
 ✦ END OF PROJECT ✦
